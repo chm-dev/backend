@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "content-fetcher.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/add",
+      "handler": "content-fetcher.add",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

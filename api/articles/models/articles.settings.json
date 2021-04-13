@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "isRead": {
+      "type": "boolean"
+    },
+    "addedOn": {
+      "type": "datetime"
+    },
+    "url": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "regex": "^https?://.*$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "raw": {
+      "type": "json",
+      "required": true
+    },
+    "text": {
+      "type": "text"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "coverUrl": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}
