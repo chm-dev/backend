@@ -1,0 +1,202 @@
+{
+    "C#": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "CSS": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff",
+            "JS-Beautify"
+        ],
+        "wrap_line_length": 140,
+        "align_assignments": true
+    },
+    "ColdFusion": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "EJS": {
+        "beautifiers": [
+            "Pretty Diff",
+            "JS-Beautify"
+        ]
+    },
+    "GraphQL": {
+        "beautifiers": [
+            "Prettier"
+        ]
+    },
+    "HTML": {
+        "beautifiers": [
+            "Pretty Diff",
+            "JS-Beautify"
+        ],
+        "wrap_line_length": 140,
+        "align_assignments": true
+    },
+    "HTML+ERB": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "Handlebars": {
+        "beautifiers": [
+            "Pretty Diff",
+            "JS-Beautify"
+        ]
+    },
+    "JSON": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff",
+            "JS-Beautify"
+        ]
+    },
+    "JSX": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff",
+            "JS-Beautify"
+        ]
+    },
+    "Java": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "JavaScript": {
+        "pragma_insert": false,
+        "wrap_line_length": 130,
+        "pragma_require": false,
+        "end_with_semicolon": true,
+        "quotes": "single",
+        "indent_size": 2,
+        "indent_style": "space",
+        "arrow_parens": "as-needed",
+        "object_curly_spacing": true,
+        "jsx_brackets": true,
+        "end_with_comma": false,
+        "indent_comments": true,
+        "break_chained_methods": false,
+        "max_preserve_newlines": 1,
+        "space_after_anon_function": true,
+        "multiline_ternary": "always",
+        "align_assignments": true,
+        "expand_brace": true,
+        "brace-style": "expand",
+        "preserve_newlines": true,
+        "unindent_chained_methods": false,
+        "space_in_paren": true,
+        "space_in_empty_paren": true,
+        "jslint_happy": true,
+        "keep_array_indentation": true,
+        "space_before_conditional": true,
+        "unescape_strings": false,
+        "end_with_newline": false,
+        "comma_first": false,
+        "indent_chained_methods": false,
+        "remove_trailing_whitespace": true,
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff",
+            "ESLint"
+        ]
+    },
+    "Less": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff"
+        ]
+    },
+    "Liquid": {
+        "beautifiers": [
+            "JS-Beautify"
+        ]
+    },
+    "Markdown": {
+        "beautifiers": [
+            "Prettier"
+        ]
+    },
+    "Mustache": {
+        "beautifiers": [
+            "JS-Beautify"
+        ]
+    },
+    "PHP": {
+        "beautifiers": [
+            "PHP-CS-Fixer"
+        ]
+    },
+    "Riot": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "SCSS": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff"
+        ]
+    },
+    "SVG": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "Sass": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "Spacebars": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "Swig": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "Titanium Style Sheets": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "Twig": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "TypeScript": {
+        "beautifiers": [
+            "Prettier",
+            "Pretty Diff"
+        ]
+    },
+    "Visualforce": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    },
+    "Vue": {
+        "beautifiers": [
+            "Prettier"
+        ]
+    },
+    "XML": {
+        "beautifiers": [
+            "Pretty Diff",
+            "JS-Beautify"
+        ]
+    },
+    "XTemplate": {
+        "beautifiers": [
+            "Pretty Diff"
+        ]
+    }
+}
