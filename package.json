@@ -9,9 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
     "knex": "0.21.18",
     "sqlite3": "5.0.0",
     "strapi": "3.5.4",
@@ -22,6 +22,8 @@
     "strapi-plugin-email": "3.5.4",
     "strapi-plugin-upload": "3.5.4",
     "strapi-plugin-users-permissions": "3.5.4",
+    "strapi-provider-email-sendgrid": "^3.6.0",
+    "strapi-provider-email-smtp": "^1.0.1",
     "strapi-utils": "3.5.4"
   },
   "author": {
@@ -34,5 +36,8 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-plugin-vue": "^7.9.0"
+  }
 }

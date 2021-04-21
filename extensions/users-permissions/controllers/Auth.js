@@ -28,9 +28,13 @@ module.exports = {
     // Parse Token
     try {
       const {id} = await strapi.plugins['users-permissions'].services.jwt.verify(params.jwt);
-      ctx.send({status: 'ok'});
+      const user = await strapi.query('user', 'users-permissions').findOne({id});
+      
+      //TODO Remove user. It is just for development purposes
+      
+      ctx.send({status: 'ok', user: user});
     } catch (e) {
-      return ctx.badRequest(null, 'Invalid token');
+      return ctx.badRequest(null, 'Invalid tokens\n' + e);
     }
   }
 };
