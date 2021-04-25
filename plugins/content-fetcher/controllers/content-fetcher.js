@@ -20,6 +20,7 @@ module.exports = {
     ctx.send({message: 'ok'});
   },
   add  : async ctx => {
+
     const q = ctx.request.query;
     if (!q.url) {
       ctx.response.status = 400;
@@ -51,8 +52,8 @@ module.exports = {
           summary : art.summary,
           coverUrl: art.image,
           url     : art.url,
-
-          isRead  : false
+          isRead  : false,
+          owner: ctx.state.user.id,
         });
       } catch (error) {
         console.error(error);
