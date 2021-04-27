@@ -44,7 +44,7 @@ module.exports = {
       console.log(res);
       const art = res.data.article;
       try {
-        await strapi.query('Articles').create({
+       const created = await strapi.query('Articles').create({
           raw     : res.data,
           text    : art.text,
           title   : art.title,
@@ -55,12 +55,13 @@ module.exports = {
           isRead  : false,
           owner: ctx.state.user.id,
         });
+        ctx.response.status = 200;
+        ctx.send(JSON.stringify(created));
+        return;
       } catch (error) {
         console.error(error);
       }
-      ctx.response.status = 200;
-      ctx.send('Ok');
-      return;
+
     }
   }
 };
