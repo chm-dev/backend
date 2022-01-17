@@ -8,14 +8,12 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "populateCreatorFields": true
   },
   "attributes": {
     "isRead": {
       "type": "boolean"
-    },
-    "addedOn": {
-      "type": "datetime"
     },
     "url": {
       "type": "string",
@@ -37,10 +35,12 @@
     },
     "raw": {
       "type": "json",
-      "required": true
+      "required": true,
+      "private": true
     },
     "text": {
-      "type": "text"
+      "type": "text",
+      "private": true
     },
     "summary": {
       "type": "text"
@@ -48,14 +48,15 @@
     "coverUrl": {
       "type": "string"
     },
-    "content": {
-      "type": "text"
-    },
     "owner": {
       "private": true,
       "plugin": "users-permissions",
       "model": "user",
       "via": "articles"
+    },
+    "content": {
+      "via": "article",
+      "model": "content"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "name": "Content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "html": {
+      "type": "richtext"
+    },
+    "text": {
+      "type": "string"
+    },
+    "article": {
+      "model": "articles",
+      "via": "content"
+    },
+    "owner": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

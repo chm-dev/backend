@@ -56,10 +56,41 @@
         ]
     },
     "JSX": {
+        "pragma_insert": false,
+        "wrap_line_length": 130,
+        "pragma_require": false,
+        "end_with_semicolon": true,
+        "quotes": "single",
+        "indent_size": 2,
+        "indent_style": "space",
+        "arrow_parens": "as-needed",
+        "object_curly_spacing": true,
+        "jsx_brackets": true,
+        "end_with_comma": false,
+        "indent_comments": true,
+        "break_chained_methods": false,
+        "max_preserve_newlines": 1,
+        "space_after_anon_function": true,
+        "multiline_ternary": "always",
+        "align_assignments": true,
+        "expand_brace": true,
+        "brace-style": "expand",
+        "preserve_newlines": true,
+        "unindent_chained_methods": false,
+        "space_in_paren": true,
+        "space_in_empty_paren": true,
+        "jslint_happy": true,
+        "keep_array_indentation": true,
+        "space_before_conditional": true,
+        "unescape_strings": false,
+        "end_with_newline": false,
+        "comma_first": false,
+        "indent_chained_methods": false,
+        "remove_trailing_whitespace": true,
         "beautifiers": [
             "Prettier",
             "Pretty Diff",
-            "JS-Beautify"
+            "ESLint"
         ]
     },
     "Java": {
