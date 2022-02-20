@@ -3,10 +3,9 @@
 ![logo](https://github.com/chm-dev/rdr-frontend/raw/master/public/img/icons/icon-192x192.png)
 
 This is backend for simple "Read it later" / "Pocket" clone as Progressive WebApp.
-It created in [Strapi](https://strapi.io) with some custom modifications.
 [Frontend repository is here](https://github.com/chm-dev/rdr-frontend).
 
-This strapi instance has been modified / extended.
+It is a [Strapi](https://strapi.io) instance with some custom modifications.
 
 This backend provides:
 * Fully functional and lovely strapi frontned for data managment
